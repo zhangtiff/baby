@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	word-wrap: break-word; 
+	font-family: eblong-gentium,georgia,serif;
+}
+
+html{
+	height: 100%;
+	min-height:100%;
+	width: 100%;
+	color: #fff;
+	background: #fff;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+body{
+	float: left;
+	background: #222;
+	width: 100%;
+	min-height: 100%;
+}
+
+#container{
+	margin: 20px auto 10px;
+	width:50%;
+	min-width: 500px;
+	min-height: 70%;
+}
+
+#container #text{
+	width: 100%;
+}
+
+#container #input input{
+	background: none; 
+	border: none;
+	color: #fff;
+	width: 90%;
+	font-size: 14px;
+	line-height: 22px;
+	height: 22px;
+}
+
+.caps{
+	font-variant: small-caps;
+}
+
+#winText{
+	display: none;
+}
